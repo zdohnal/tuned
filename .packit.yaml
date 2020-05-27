@@ -5,6 +5,7 @@ jobs:
     targets:
     - fedora-30-x86_64
     - fedora-31-x86_64
+    - fedora-32-x86_64
     - fedora-rawhide-x86_64
     - epel-8-x86_64
   trigger: pull_request
@@ -14,6 +15,7 @@ jobs:
     targets:
     - fedora-30-x86_64
     - fedora-31-x86_64
+    - fedora-32-x86_64
     - fedora-rawhide-x86_64
     - epel-8-x86_64
 specfile_path: tuned.spec
