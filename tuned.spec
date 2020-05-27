@@ -488,6 +488,7 @@ fi
 %config(noreplace) %{_sysconfdir}/tuned/cpu-partitioning-variables.conf
 %{_prefix}/lib/tuned/cpu-partitioning
 %{_mandir}/man7/tuned-profiles-cpu-partitioning.7*
+/usr/share/man/man7/tuned-profiles-spectrumscale-ece.7.gz
 
 %files profiles-compat
 %defattr(-,root,root,-)
